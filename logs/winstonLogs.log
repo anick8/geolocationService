@@ -1,0 +1,440 @@
+info: Oct-25-2021 20:54:09: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 20:54:09 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 20:54:09: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Username": "test82",[0m
+[97m	"Email": "test82@gmail.com"[0m
+[97m}[0m
+
+info: Oct-25-2021 20:54:09: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 20:54:09: 	[96mResponse: [32m200 [37m1178.799 ms 
+
+info: Oct-25-2021 20:54:09: 	{ 'id' : [6145b291-d311-44c6-95d1-5d16e92fc9a8] , 'method' : [POST] , 'url' :[/register] , 'response-time' : [1178.799] , 'body' : [{"SaltedHash":"abc","Username":"test82","Email":"test82@gmail.com"}] } 
+
+info: Oct-25-2021 20:54:09: 	::1 - - [25/Oct/2021:15:24:09 +0000] "POST /register HTTP/1.1" 200 101 "-" "python-requests/2.12.4"
+
+info: Oct-25-2021 20:55:00: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 20:55:00 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 20:55:00: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"Username": "test82",[0m
+[97m	"SaltedHash": "abc"[0m
+[97m}[0m
+
+info: Oct-25-2021 20:55:00: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 20:55:00: 	[96mResponse: [32m200 [37m998.061 ms 
+
+info: Oct-25-2021 20:55:00: 	{ 'id' : [f01b947f-effd-4e34-9d31-dd9cd52ebdee] , 'method' : [POST] , 'url' :[/register] , 'response-time' : [998.061] , 'body' : [{"Email":"test82@gmail.com","Username":"test82","SaltedHash":"abc"}] } 
+
+info: Oct-25-2021 20:55:00: 	::1 - - [25/Oct/2021:15:25:00 +0000] "POST /register HTTP/1.1" 200 101 "-" "python-requests/2.12.4"
+
+info: Oct-25-2021 20:59:17: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 20:59:17 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 20:59:17: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Username": "test82"[0m
+[97m}[0m
+
+info: Oct-25-2021 20:59:17: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 20:59:17: 	[96mResponse: [32m200 [37m1214.428 ms 
+
+info: Oct-25-2021 21:00:28: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 21:00:28 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 21:00:28: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"Username": "test82"[0m
+[97m}[0m
+
+info: Oct-25-2021 21:00:28: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 21:00:28: 	[96mResponse: [32m200 [37m1080.239 ms 
+
+info: Oct-25-2021 21:01:47: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 21:01:47 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 21:01:47: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Username": "test82"[0m
+[97m}[0m
+
+info: Oct-25-2021 21:01:47: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 21:01:47: 	[96mResponse: [32m200 [37m757.612 ms 
+
+info: Oct-25-2021 21:02:05: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 21:02:05 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 21:02:05: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"Username": "test82"[0m
+[97m}[0m
+
+info: Oct-25-2021 21:02:05: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 21:02:05: 	[96mResponse: [32m200 [37m1211.717 ms 
+
+info: Oct-25-2021 22:30:09: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mMon Oct 25 2021 22:30:09 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-25-2021 22:30:09: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Username": "test82",[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"SaltedHash": "abc"[0m
+[97m}[0m
+
+info: Oct-25-2021 22:30:09: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-25-2021 22:30:09: 	[96mResponse: [32m200 [37m6620.106 ms 
+
+info: Oct-26-2021 00:48:18: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mTue Oct 26 2021 00:48:18 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-26-2021 00:48:18: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Username": "test82",[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Email": "test82@gmail.com"[0m
+[97m}[0m
+
+info: Oct-26-2021 00:48:18: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-26-2021 00:48:18: 	[96mResponse: [32m200 [37m1272.164 ms 
+
+info: Oct-26-2021 11:40:22: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mTue Oct 26 2021 11:40:22 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-26-2021 11:40:22: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Username": "test82",[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Email": "test82@gmail.com"[0m
+[97m}[0m
+
+info: Oct-26-2021 11:40:22: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-26-2021 11:40:22: 	[96mResponse: [32m200 [37m6429.382 ms 
+
+info: Oct-26-2021 11:42:18: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mTue Oct 26 2021 11:42:18 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-26-2021 11:42:18: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Username": "test82",[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"SaltedHash": "abc"[0m
+[97m}[0m
+
+info: Oct-26-2021 11:42:18: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-26-2021 11:42:18: 	[96mResponse: [32m200 [37m1062.258 ms 
+
+info: Oct-26-2021 11:44:21: 	
+[96mRequest: [93mPOST [97m/register [90mat [37mTue Oct 26 2021 11:44:21 GMT+0530, [90mIP: [37m::1[0m, [90mUser Agent: python-requests/2.12.4[0m
+
+info: Oct-26-2021 11:44:21: 	[95mRequest Body:[0m
+[97m{[0m
+[97m	"Email": "test82@gmail.com",[0m
+[97m	"SaltedHash": "abc",[0m
+[97m	"Username": "test82"[0m
+[97m}[0m
+
+info: Oct-26-2021 11:44:21: 	[95mResponse Body:[0m
+[97m{[0m
+[97m	"err": null,[0m
+[97m	"data": null,[0m
+[97m	"msg": "Cannot Register & Check Username Successful & Username Not Available"[0m
+[97m}[0m
+
+info: Oct-26-2021 11:44:21: 	[96mResponse: [32m200 [37m1184.399 ms 
+
+info: Oct-26-2021 20:49:00: 	 Request: POST /loginWithCookie at Tue Oct 26 2021 20:49:00 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-26-2021 20:49:00: 	Request Body: {"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent","UserLocation":["Lat","Long"],"SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","IPAddress":"12.12.13.14"} 
+info: Oct-26-2021 20:49:00: 	Response: - - ms  
+info: Oct-27-2021 00:15:43: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:15:43 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:15:43: 	Request Body: {"IPAddress":"12.12.13.14","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserLocation":["Lat","Long"],"SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78"} 
+info: Oct-27-2021 00:15:43: 	Response: - - ms  
+info: Oct-27-2021 00:25:23: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:25:23 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:25:23: 	Request Body: {"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","UserAgent":"UserAgent","UserLocation":["Lat","Long"],"SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78"} 
+info: Oct-27-2021 00:25:23: 	Response: - - ms  
+info: Oct-27-2021 00:29:42: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:29:42 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:29:42: 	Request Body: {"UserAgent":"UserAgent","UserLocation":["Lat","Long"],"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","IPAddress":"12.12.13.14","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78"} 
+info: Oct-27-2021 00:29:42: 	Response: - - ms  
+info: Oct-27-2021 00:31:43: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:31:43 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:31:43: 	Request Body: {"UserLocation":["Long","Lat"],"IPAddress":"12.12.13.14","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78"} 
+info: Oct-27-2021 00:31:43: 	Response: - - ms  
+info: Oct-27-2021 00:36:33: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:36:33 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:36:33: 	Request Body: {"IPAddress":"12.12.13.14","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserLocation":["Lat","Long"],"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5"} 
+info: Oct-27-2021 00:36:33: 	Response: - - ms  
+info: Oct-27-2021 00:39:22: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:39:22 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:39:22: 	Request Body: {"UserAgent":"UserAgent","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserLocation":["Long","Lat"]} 
+info: Oct-27-2021 00:39:22: 	Response: - - ms  
+info: Oct-27-2021 00:53:09: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:53:09 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:53:09: 	Request Body: {"IPAddress":"12.12.13.14","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserLocation":["Lat","Long"],"SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent"} 
+info: Oct-27-2021 00:53:09: 	Response: - - ms  
+info: Oct-27-2021 00:56:26: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 00:56:26 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 00:56:26: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserLocation":["Lat","Long"],"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserAgent":"UserAgent","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 00:56:26: 	Response: - - ms  
+info: Oct-27-2021 01:45:35: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 01:45:35 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 01:45:35: 	Request Body: {"UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserLocation":["Lat","Long"],"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 01:45:35: 	Response: - - ms  
+info: Oct-27-2021 01:52:58: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 01:52:58 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 01:52:58: 	Request Body: {"SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Lat":"1.0","UserAgent":"UserAgent","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5"} 
+info: Oct-27-2021 01:52:58: 	Response: - - ms  
+info: Oct-27-2021 02:07:35: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:07:35 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:07:35: 	Request Body: {"Lat":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","UserAgent":"UserAgent","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","IPAddress":"12.12.13.14","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5"} 
+info: Oct-27-2021 02:07:35: 	Response: - - ms  
+info: Oct-27-2021 02:11:03: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:11:03 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:11:03: 	Request Body: {"Long":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","Lat":"1.0","UserAgent":"UserAgent","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 02:11:03: 	Response: - - ms  
+info: Oct-27-2021 02:14:06: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:14:06 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:14:06: 	Request Body: {"Lat":"1.0","Long":"1.0","IPAddress":"12.12.13.14","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"} 
+info: Oct-27-2021 02:14:06: 	Response: - - ms  
+info: Oct-27-2021 02:20:12: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:20:12 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:20:12: 	Request Body: {"Long":"1.0","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Lat":"1.0"} 
+info: Oct-27-2021 02:20:12: 	Response: - - ms  
+info: Oct-27-2021 02:22:13: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:22:13 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:22:13: 	Request Body: {"UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Lat":"1.0","Long":"1.0","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 02:22:13: 	Response: - - ms  
+info: Oct-27-2021 02:23:56: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:23:56 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:23:56: 	Request Body: {"UserAgent":"UserAgent","Lat":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 02:23:56: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful refreshSession & Session update Failed"} 
+info: Oct-27-2021 02:23:56: 	Response: 200 67720.179 ms  
+info: Oct-27-2021 02:31:15: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:31:15 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:31:15: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Lat":"1.0","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Long":"1.0"} 
+info: Oct-27-2021 02:31:15: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful refreshSession & Session update Failed"} 
+info: Oct-27-2021 02:31:15: 	Response: 200 68195.960 ms  
+info: Oct-27-2021 02:33:38: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:33:38 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:33:38: 	Request Body: {"Lat":"1.0","UserAgent":"UserAgent","Long":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 02:33:38: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful refreshSession & Session update Failed"} 
+info: Oct-27-2021 02:33:38: 	Response: 200 65506.717 ms  
+info: Oct-27-2021 02:37:42: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:37:42 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:37:42: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Long":"1.0","UserAgent":"UserAgent","Lat":"1.0"} 
+info: Oct-27-2021 02:37:42: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful refreshSession & Session update Failed"} 
+info: Oct-27-2021 02:37:42: 	Response: 200 67065.455 ms  
+info: Oct-27-2021 02:38:56: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:38:56 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:38:56: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserAgent":"UserAgent"} 
+info: Oct-27-2021 02:38:56: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful refreshSession & Session update Failed"} 
+info: Oct-27-2021 02:38:56: 	Response: 200 66879.690 ms  
+info: Oct-27-2021 02:39:15: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:39:15 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:39:15: 	Request Body: {"IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Lat":"1.0","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:39:15: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:39:15: 	Response: 200 7608.532 ms  
+info: Oct-27-2021 02:45:57: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:45:57 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:45:57: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","IPAddress":"12.12.13.14","Lat":"1.0","UserAgent":"UserAgent","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:45:57: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:45:57: 	Response: 200 37321.371 ms  
+info: Oct-27-2021 02:47:31: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:47:31 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:47:31: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Long":"1.0","Lat":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:47:31: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:47:31: 	Response: 200 10874.220 ms  
+info: Oct-27-2021 02:49:07: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:49:07 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:49:07: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserAgent":"UserAgent","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:49:07: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserAgent":"UserAgent","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:49:07: 	Response: 200 6903.323 ms  
+info: Oct-27-2021 02:49:53: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:49:53 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:49:53: 	Request Body: {"Lat":"1.0","Long":"1.0","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:49:53: 	Response Body: {"err":null,"data":{"Lat":"1.0","Long":"1.0","UserAgent":"UserAgent","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:49:53: 	Response: 200 4517.307 ms  
+info: Oct-27-2021 02:51:14: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:51:14 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:51:14: 	Request Body: {"UserAgent":"UserAgent","Lat":"1.0","Long":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:51:14: 	Response Body: {"err":null,"data":{"UserAgent":"UserAgent","Lat":"1.0","Long":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:51:14: 	Response: 200 6100.462 ms  
+info: Oct-27-2021 02:52:15: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:52:15 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:52:15: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Lat":"1.0","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:52:15: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Lat":"1.0","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:52:15: 	Response: 200 10450.845 ms  
+info: Oct-27-2021 02:55:06: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:55:06 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:55:06: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserAgent":"UserAgent","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:55:06: 	Response Body: {"err":null,"data":{"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserAgent":"UserAgent","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:55:06: 	Response: 200 7653.316 ms  
+info: Oct-27-2021 02:59:28: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 02:59:28 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 02:59:28: 	Request Body: {"Lat":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 02:59:28: 	Response Body: {"err":null,"data":{"Lat":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 02:59:28: 	Response: 200 6968.224 ms  
+info: Oct-27-2021 03:03:15: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:03:15 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:03:15: 	Request Body: {"UserAgent":"UserAgent","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 03:03:15: 	Response Body: {"err":null,"data":{"UserAgent":"UserAgent","IPAddress":"12.12.13.14","Lat":"1.0","Long":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 03:03:15: 	Response: 200 6390.781 ms  
+info: Oct-27-2021 03:06:25: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:06:25 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:06:25: 	Request Body: {"UserAgent":"UserAgent","Lat":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 03:06:25: 	Response Body: {"err":null,"data":{"UserAgent":"UserAgent","Lat":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 03:06:25: 	Response: 200 6374.392 ms  
+info: Oct-27-2021 03:08:20: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:08:20 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:08:20: 	Request Body: {"IPAddress":"12.12.13.14","Lat":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 03:08:20: 	Response Body: {"err":null,"data":{"IPAddress":"12.12.13.14","Lat":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","UserAgent":"UserAgent","Long":"1.0","GeolocationUUID":null,"DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 03:08:20: 	Response: 200 6995.417 ms  
+info: Oct-27-2021 03:11:40: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:11:40 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:11:40: 	Request Body: {"Long":"1.0","IPAddress":"12.12.13.14","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserAgent":"UserAgent","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Lat":"1.0"} 
+info: Oct-27-2021 03:11:40: 	Response: - - ms  
+info: Oct-27-2021 03:13:44: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:13:44 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:13:44: 	Request Body: {"IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Long":"1.0","UserAgent":"UserAgent","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","Lat":"1.0"} 
+info: Oct-27-2021 03:13:44: 	Response: - - ms  
+info: Oct-27-2021 03:22:59: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:22:59 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:22:59: 	Request Body: {"UserAgent":"UserAgent","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","IPAddress":"12.12.13.14","Long":"1.0","Lat":"1.0","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"} 
+info: Oct-27-2021 03:22:59: 	Response: - - ms  
+info: Oct-27-2021 03:26:54: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:26:54 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:26:54: 	Request Body: {"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","Long":"1.0","IPAddress":"12.12.13.14","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Lat":"1.0","UserAgent":"UserAgent"} 
+info: Oct-27-2021 03:26:54: 	Response: - - ms  
+info: Oct-27-2021 03:31:26: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:31:26 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:31:26: 	Request Body: {"SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Long":"1.0","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Lat":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"} 
+info: Oct-27-2021 03:31:26: 	Response: - - ms  
+info: Oct-27-2021 03:35:11: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:35:11 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:35:11: 	Request Body: {"IPAddress":"12.12.13.14","UserAgent":"UserAgent","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.0","Lat":"1.0"} 
+info: Oct-27-2021 03:35:11: 	Response: - - ms  
+info: Oct-27-2021 03:38:46: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:38:46 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:38:46: 	Request Body: {"UserAgent":"UserAgent","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Long":"1.0","IPAddress":"12.12.13.14","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","Lat":"1.0","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"} 
+info: Oct-27-2021 03:38:46: 	Response: - - ms  
+info: Oct-27-2021 03:39:57: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 03:39:57 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 03:39:57: 	Request Body: {"Long":"1.000000","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Lat":"1.000000","GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288","DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 03:39:57: 	Response Body: {"err":null,"data":{"Long":"1.000000","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Lat":"1.000000","GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288","DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 03:39:57: 	Response: 200 8244.237 ms  
+info: Oct-27-2021 19:31:24: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 19:31:24 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 19:31:24: 	Request Body: {"Long":"1.000000","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Lat":"1.000000","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"} 
+info: Oct-27-2021 19:31:24: 	Response: - - ms  
+info: Oct-27-2021 19:33:44: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 19:33:44 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 19:33:44: 	Request Body: {"UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","Long":"1.000000","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Lat":"1.000000","IPAddress":"12.12.13.14","UserAgent":"UserAgent","GeolocationUUID":null} 
+info: Oct-27-2021 19:33:44: 	Response: - - ms  
+info: Oct-27-2021 19:40:19: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 19:40:19 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 19:40:19: 	Request Body: {"IPAddress":"12.12.13.14","Long":"1.000000","UserAgent":"UserAgent","SessionKey":"9a927b4ec2b8094e5e0c901805c55d282dcf3d43926c8ef6962bb5c3d38ea4c5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Lat":"1.000000"} 
+info: Oct-27-2021 19:40:19: 	Response: - - ms  
+info: Oct-27-2021 19:44:45: 	 Request: POST /loginWithCookie at Wed Oct 27 2021 19:44:45 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 19:44:45: 	Request Body: {"IPAddress":"12.12.13.14","SessionUUID":"d2f95915aeeba4a986c41f816a9e66e3fc38b49d7cf4dd8ba5d7bfbd5ba69a78","Long":"1.000000","UserAgent":"UserAgent","Lat":"1.000000","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2","GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288","DeviceUUID":"2742573ad9c5c9fb66a2fb1d895cdec5c878750e86ad2c6135714c1165d3bdbf"} 
+info: Oct-27-2021 19:44:45: 	Response Body: {"err":null,"data":{"SessionKey":"5792d6994cf50e428776de0ae209b85ef6aaebb6408677ee3727bea077697f6e","SessionUUID":"4cd0b82afd7fbf5997d402dd2678e44057815835f0c144617c5a0b68837f3aa5","UserUUID":"0a2a06449bf013ec17cf3ed8f7fc23c6cb81b1bef9f971e50e532fef2e67b0e2"},"msg":"Logged in Successfully with Cookie & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 19:44:45: 	Response: 200 13658.653 ms  
+info: Oct-27-2021 20:02:30: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 20:02:30 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 20:02:30: 	Request Body: {"UserAgent":"UserAgent","Long":"1.000000","Email":"rishiprattipati@gmail.com","IPAddress":"12.12.13.14","Lat":"1.000000"} 
+info: Oct-27-2021 20:02:30: 	Response: 404 7.175 ms  
+info: Oct-27-2021 20:05:52: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 20:05:52 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 20:05:52: 	Request Body: {"Lat":"1.000000","UserAgent":"UserAgent","Long":"1.000000","IPAddress":"12.12.13.14","Email":"rishiprattipati@gmail.com","DeviceUUID":null} 
+info: Oct-27-2021 20:05:52: 	Response Body: {"err":null,"data":{"Lat":"1.000000","UserAgent":"UserAgent","Long":"1.000000","IPAddress":"12.12.13.14","Email":"rishiprattipati@gmail.com","DeviceUUID":null},"msg":"Logged in Successfully with oAuth & Successful createSession & Session creation Failed"} 
+info: Oct-27-2021 20:05:52: 	Response: 200 64452.531 ms  
+info: Oct-27-2021 20:07:42: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 20:07:42 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 20:07:42: 	Request Body: {"Lat":"1.000000","Long":"1.000000","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Email":"rishiprattipati@gmail.com","DeviceUUID":null} 
+info: Oct-27-2021 20:07:42: 	Response Body: {"err":null,"data":{"Lat":"1.000000","Long":"1.000000","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Email":"rishiprattipati@gmail.com","DeviceUUID":null},"msg":"Logged in Successfully with oAuth & Successful createSession & Session creation Failed"} 
+info: Oct-27-2021 20:07:42: 	Response: 200 64579.171 ms  
+info: Oct-27-2021 20:10:53: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 20:10:53 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 20:10:53: 	Request Body: {"IPAddress":"12.12.13.14","Email":"15234","Long":"1.000000","UserAgent":"UserAgent","Lat":"1.000000","DeviceUUID":null} 
+info: Oct-27-2021 20:10:53: 	Response Body: {"err":null,"data":{"IPAddress":"12.12.13.14","Email":"15234","Long":"1.000000","UserAgent":"UserAgent","Lat":"1.000000","DeviceUUID":null},"msg":"Logged in Successfully with oAuth & Successful createSession & Session creation Failed"} 
+info: Oct-27-2021 20:10:53: 	Response: 200 64267.620 ms  
+info: Oct-27-2021 20:15:18: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 20:15:18 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 20:15:18: 	Request Body: {"Email":"15234","Lat":"1.000000","Long":"1.000000","IPAddress":"12.12.13.14","UserAgent":"UserAgent"} 
+info: Oct-27-2021 20:15:18: 	Response: - - ms  
+info: Oct-27-2021 20:25:15: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 20:25:15 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 20:25:15: 	Request Body: {"Long":"1.000000","Lat":"1.000000","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Email":"15234","UserUUID":"16564c520d53e9b7214078029e521a856f8feef7512df011158c552a917e1070","DeviceUUID":"878daa9db986427076182f720fc6470444b4af5638885b7b5526e532beda84ae"} 
+info: Oct-27-2021 20:25:15: 	Response Body: {"err":null,"data":{"Long":"1.000000","Lat":"1.000000","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Email":"15234","UserUUID":"16564c520d53e9b7214078029e521a856f8feef7512df011158c552a917e1070","DeviceUUID":"878daa9db986427076182f720fc6470444b4af5638885b7b5526e532beda84ae"},"msg":"Logged in Successfully with oAuth & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 20:25:15: 	Response: 200 6206.717 ms  
+info: Oct-27-2021 22:46:20: 	 Request: POST /loginWithOauth at Wed Oct 27 2021 22:46:20 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 22:46:20: 	Request Body: {"Lat":"1.000000","Long":"1.000000","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Email":"15234","UserUUID":"16564c520d53e9b7214078029e521a856f8feef7512df011158c552a917e1070","DeviceUUID":"878daa9db986427076182f720fc6470444b4af5638885b7b5526e532beda84ae"} 
+info: Oct-27-2021 22:46:20: 	Response Body: {"err":null,"data":{"Lat":"1.000000","Long":"1.000000","UserAgent":"UserAgent","IPAddress":"12.12.13.14","Email":"15234","UserUUID":"16564c520d53e9b7214078029e521a856f8feef7512df011158c552a917e1070","DeviceUUID":"878daa9db986427076182f720fc6470444b4af5638885b7b5526e532beda84ae"},"msg":"Logged in Successfully with oAuth & Successful createSession & Session creation Successful"} 
+info: Oct-27-2021 22:46:20: 	Response: 200 24360.209 ms  
+info: Oct-27-2021 23:25:46: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:25:46 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:25:46: 	Request Body: {"Lat":"1.000000","UserAgent":"UserAgent","Email":"aniketh@gmail.com","SaltedHash":"yolo","Username":"aniketh","Long":"1.000000","IPAddress":"12.12.13.14"} 
+info: Oct-27-2021 23:25:46: 	Response Body: {"err":null,"data":null,"msg":"Email address not found with loginWithPassword & Check User Successful & User Retrieved"} 
+info: Oct-27-2021 23:25:46: 	Response: 200 6102.158 ms  
+info: Oct-27-2021 23:29:20: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:29:20 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:29:20: 	Request Body: {"Username":"aniketh","SaltedHash":"yolo","IPAddress":"12.12.13.14","UserAgent":"UserAgent","Email":"123","Long":"1.000000","Lat":"1.000000","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1"} 
+info: Oct-27-2021 23:29:20: 	Response Body: {"err":null,"data":null,"msg":"Password match failed with loginWithPassword & Check User Successful & User Retrieved"} 
+info: Oct-27-2021 23:29:20: 	Response: 200 8172.913 ms  
+info: Oct-27-2021 23:32:30: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:32:30 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:32:30: 	Request Body: {"Long":"1.000000","Lat":"1.000000","Username":"aniketh","SaltedHash":"abc","Email":"123","UserAgent":"UserAgent","IPAddress":"12.12.13.14","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":{},"DeviceUUID":{}} 
+info: Oct-27-2021 23:32:30: 	Response Body: {"err":null,"data":null,"msg":"Session created and returned"} 
+info: Oct-27-2021 23:32:30: 	Response: 200 8307.160 ms  
+info: Oct-27-2021 23:33:14: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:33:14 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:33:14: 	Request Body: {"Lat":"1.000000","SaltedHash":"abc","Long":"1.000000","IPAddress":"12.12.13.14","Email":"123","Username":"aniketh","UserAgent":"UserAgent","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":{},"DeviceUUID":{}} 
+info: Oct-27-2021 23:33:14: 	Response Body: {"err":null,"data":null,"msg":"Session created and returned"} 
+info: Oct-27-2021 23:33:14: 	Response: 200 4281.989 ms  
+info: Oct-27-2021 23:34:31: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:34:31 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:34:31: 	Request Body: {"Lat":"1.000000","IPAddress":"12.12.13.14","Long":"1.000000","SaltedHash":"abc","Username":"aniketh","UserAgent":"UserAgent","Email":"123","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":{},"DeviceUUID":{}} 
+info: Oct-27-2021 23:34:31: 	Response Body: {"err":null,"data":null,"msg":"Session created and returned"} 
+info: Oct-27-2021 23:34:31: 	Response: 200 4976.601 ms  
+info: Oct-27-2021 23:38:19: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:38:19 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:38:19: 	Request Body: {"IPAddress":"12.12.13.14","Email":"123","UserAgent":"UserAgent","Username":"aniketh","Lat":"1.000000","SaltedHash":"abc","Long":"1.000000","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":{},"DeviceUUID":{}} 
+info: Oct-27-2021 23:38:19: 	Response Body: {"err":null,"data":null,"msg":"Session created and returned"} 
+info: Oct-27-2021 23:38:19: 	Response: 200 2499.111 ms  
+info: Oct-27-2021 23:39:19: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:39:19 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:39:19: 	Request Body: {"SaltedHash":"abc","Username":"aniketh","Email":"123","IPAddress":"12.12.13.14","Long":"1.000000","UserAgent":"UserAgent","Lat":"1.000000","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":{},"DeviceUUID":{}} 
+info: Oct-27-2021 23:39:19: 	Response Body: {"err":null,"data":null,"msg":"Session created and returned"} 
+info: Oct-27-2021 23:39:19: 	Response: 200 4462.686 ms  
+info: Oct-27-2021 23:40:00: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:40:00 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:40:00: 	Request Body: {"Username":"aniketh","SaltedHash":"abc","Email":"123","Lat":"1.000000","Long":"1.000000","UserAgent":"UserAgent","IPAddress":"12.12.13.14","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":{"err":null,"data":{"GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288"},"msg":"Check Geolocation Successful & Geolocation Retrieved"},"DeviceUUID":"479a6d9c59561e18bac650a9f980b96563472be6bca5206886cf35ebcb463363"} 
+info: Oct-27-2021 23:40:00: 	Response Body: {"err":null,"data":null,"msg":"Session created and returned"} 
+info: Oct-27-2021 23:40:00: 	Response: 200 7235.396 ms  
+info: Oct-27-2021 23:41:02: 	 Request: POST /loginWithPassword at Wed Oct 27 2021 23:41:02 GMT+0530, IP: ::1, User Agent: python-requests/2.12.4 
+info: Oct-27-2021 23:41:02: 	Request Body: {"IPAddress":"12.12.13.14","Email":"123","UserAgent":"UserAgent","Username":"aniketh","SaltedHash":"abc","Long":"1.000000","Lat":"1.000000","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288","DeviceUUID":"479a6d9c59561e18bac650a9f980b96563472be6bca5206886cf35ebcb463363"} 
+info: Oct-27-2021 23:41:02: 	Response Body: {"err":null,"data":{"SessionUUID":"172ba772d3d8acc76254eb3ae5a94a1a1b5b957bd20459088a71dbdeed6d4c42","SessionKey":"013e91f7a8617750705b9cf796c398e03ec7e15d357e2fe8eb21ed2c1e84d354","UserUUID":"951c04d578156a6a5394a204eec78b3b9a1501915a7c3f63068fca0d910d2aa1","SessionInTime":1635358262173,"SessionExpiryTime":1635372662173},"msg":"Session created and returned"} 
+info: Oct-27-2021 23:41:02: 	Response: 200 5871.087 ms  
+info: Oct-30-2021 19:22:04: 	 Request: POST /follow at Sat Oct 30 2021 19:22:04 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Oct-30-2021 19:22:04: 	Request Body: {"Follower":"0ea9ec09c2eefe9d35b17c72b309914c16bc442990e1b44db9cfe3199a33232c","Following":"f7c755e928aa0d42f50c3665cbc5f9ca653f0f1e7e0995bf6009d44fe297d9dc"} 
+info: Oct-30-2021 19:22:04: 	Response: - - ms  
+info: Oct-30-2021 19:24:11: 	 Request: POST /follow at Sat Oct 30 2021 19:24:11 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Oct-30-2021 19:24:11: 	Request Body: {"Follower":"0ea9ec09c2eefe9d35b17c72b309914c16bc442990e1b44db9cfe3199a33232c","Following":"f7c755e928aa0d42f50c3665cbc5f9ca653f0f1e7e0995bf6009d44fe297d9dc"} 
+info: Oct-30-2021 19:24:11: 	Response Body: {"err":{"message":"Request failed with status code 503","name":"Error","stack":"Error: Request failed with status code 503\n    at createError (/home/aniketh/MyProjects/node/hashx/Businees_Logic_APIs/backend-microservices/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/aniketh/MyProjects/node/hashx/Businees_Logic_APIs/backend-microservices/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/aniketh/MyProjects/node/hashx/Businees_Logic_APIs/backend-microservices/node_modules/axios/lib/adapters/http.js:293:11)\n    at IncomingMessage.emit (events.js:326:22)\n    at endReadableNT (_stream_readable.js:1241:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLeng ... 
+info: Oct-30-2021 19:24:11: 	Response: 400 1184.597 ms  
