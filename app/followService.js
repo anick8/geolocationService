@@ -1,10 +1,11 @@
 const { F } = require('ramda');
-const check = require('../lib/checkLibrary');
 const logic = require('../lib/logicLibrary')
 
 exports.isFollow = async (req) => {
   var body = req.body; 
+  console.log(body);
   result = await logic.isFollow(body)
+  
   if (!result.err)
     return{'err':null,'data':result.data,'msg':result.msg}
   else
@@ -13,6 +14,7 @@ exports.isFollow = async (req) => {
 
 exports.getAllFollows = async (req) => {
   var body = req.body; 
+  console.log(body);
   result = await logic.getAllFollows(body)
   if (!result.err)
     return{'err':null,'data':result.data,'msg':result.msg}
