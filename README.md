@@ -1,7 +1,7 @@
 
-# Hashx Identity CUD Microservice
+# Hashx Follow Service
 
-Microservice to implement Identity Table Create Update and Delete operations.
+Service to implement Follow operations.
 
 Run using - 
 npm install 
@@ -11,49 +11,68 @@ node index.js
 
 # Routes
 
-## /createIdentity
+## /isFollow
 
-Creates a new Identity : 
+Checks if A follows B
+
 Request Body - 
- - req.body.Username : Unique Username of identity
- - req.body.UserUUID : UUID of creating account from UserInfo
- - req.body.ProfileBio * : Bio for profile, plaintext 1000 characters
- -  req.body.ProfileImageURL * : ImageURL for profile image
- *Optional Arguments 
- 
-Query : 'Insert into "UserInfo" ("UserUUID","Email","CreatedAt","CreatedBy","ModifiedAt")'
+ - req.body.Follower : IdentityUUID of Following ( A ) 
+ - req.body.Following : IdentityUUID of Following ( B ) 
 
-## /updateIdentity
+Response Body -
+ - res.data = { isFollower , isFollowing }
 
-Updates  UserInfo with new details : 
-Username,IdentityUUID,UserUUID,ProfileImageURL,ProfileBio
+
+
+## /getAllFollows
+
+Checks all people that Follow A / A follows ( ErsOrIng )
+
 Request Body - 
- - req.body.Username : Unique Username of identity
- - req.body.IdentityUUID : IdentityUUID of identity 
- - req.body.UserUUID : UserUUID of identity
- - req.body.ProfileImageURL : Profile Image URL
- - req.body.ProfileBio : Bio of profile
+ - req.body.Follower : IdentityUUID of Follower ( A ) 
+ - req.body.ErsOrIng : Followers (0) or Following (1)
+ - req.body.limit : Limit number of results, default 20
+ - req.body.offset : Offset for search, default 0
 
- 
-Query : 'update "UserInfo" set "Email"= $1,"ModifiedAt"= $2  where "UserUUID"=$3' 
+ Response Body -
+ - res.data = {{ Follower,Following }} 
 
-## /deleteIdentity
 
-Deletes UserInfo row : 
+## /follow
+
+Creates Follow row : 
+
 Request Body - 
- - req.body.identityuuid : IdentityUUID of profile 
- 
-Query : delete from "Identity" where "IdentityUUID"= $1' 
+ - req.body.Follower : IdentityUUID of Following ( A ) 
+ - req.body.Following : IdentityUUID of Following ( B ) 
 
+
+Response Body -
+ - res.data = { Follower,Following } 
+
+
+## /unfollow
+
+Deletes Follow row : 
+
+Request Body - 
+ - req.body.Follower : IdentityUUID of Following ( A ) 
+ - req.body.Following : IdentityUUID of Following ( B ) 
+ 
+Response Body -
+ - res.data = { Follower,Following } 
 
 
 # Response Format
 
 [err,data,msg]
 
- - err : Error message from SQL try block
- - data : Data returned by SQL query
+ - err : Error message from Service
+ - data : Data returned by Service
  - msg : Custom message defined in API
+
+
+
 
 
 

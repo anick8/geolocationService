@@ -1,7 +1,7 @@
 import requests
 import sys
 
-URL = "http://localhost:8080/getAllFollows"
+URL = "https://hashx-follow-service.herokuapp.com/getAllFollows"#"http://localhost:8080/getAllFollows"
 #"https://hashx-register-service.herokuapp.com/register"  #"http://localhost:8080/register"
 
 
