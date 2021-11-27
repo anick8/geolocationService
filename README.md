@@ -1,81 +1,50 @@
+﻿
+# Hashx Service for Geolocation
 
-# Hashx Follow Service
-
-Service to implement Follow operations.
-
-Run using - 
-npm install 
-npm start 
-(OR)
-node index.js
+Service to implement Wallet Operations.
+Run using - npm install npm start (OR) node index.js
 
 # Routes
 
-## /isFollow
+## /getGeolocation	
 
-Checks if A follows B
+Gets the Geolocation lat long values.
 
-Request Body - 
- - req.body.Follower : IdentityUUID of Following ( A ) 
- - req.body.Following : IdentityUUID of Following ( B ) 
-
-Response Body -
- - res.data = { isFollower , isFollowing }
-
-
-
-## /getAllFollows
-
-Checks all people that Follow A / A follows ( ErsOrIng )
-
-Request Body - 
- - req.body.Follower : IdentityUUID of Follower ( A ) 
- - req.body.ErsOrIng : Followers (0) or Following (1)
- - req.body.limit : Limit number of results, default 20
- - req.body.offset : Offset for search, default 0
-
- Response Body -
- - res.data = {{ Follower,Following }} 
-
-
-## /follow
-
-Creates Follow row : 
-
-Request Body - 
- - req.body.Follower : IdentityUUID of Following ( A ) 
- - req.body.Following : IdentityUUID of Following ( B ) 
-
+Request Body -
+-req.body.GeolocationUUID: GeolocationUUID of the Geolocation
 
 Response Body -
- - res.data = { Follower,Following } 
+{Lat,Long,GeolocationUUID}
+## /createGeolocation	
 
+creates a Geolocation
 
-## /unfollow
+Request Body -
+-req.body.Lat : Latitude
+-req.body.Long : Longitude
 
-Deletes Follow row : 
-
-Request Body - 
- - req.body.Follower : IdentityUUID of Following ( A ) 
- - req.body.Following : IdentityUUID of Following ( B ) 
- 
+   
 Response Body -
- - res.data = { Follower,Following } 
+{GeolocationUUID,Lat,Long}
+
+## /getorCreateGeolocation	
+
+checks if a geolocation exists if not creates it.
+
+Request Body -
+-req.body.Lat : Latitude
+-req.body.Long : Longitude
+   
+Response Body -
+{GeolocationUUID,Lat,Long}
 
 
 # Response Format
 
 [err,data,msg]
 
- - err : Error message from Service
- - data : Data returned by Service
- - msg : Custom message defined in API
-
-
-
-
-
-
-
+-   err : Error message from SQL try block
+-   data : Data returned by SQL query
+-   msg : Custom message defined in API
 
 
