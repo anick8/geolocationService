@@ -730,3 +730,114 @@ info: Nov-06-2021 17:46:51: 	 Request: POST /getAllFollows at Sat Nov 06 2021 17
 info: Nov-06-2021 17:46:51: 	Request Body: {"Following":"210b551be32131d55168984874d1bf3a8b34f5e3b3ad6c00bfb81e7893c6d483","limit":"20","ErsOrIng":"0","offset":"0","Follower":"373da1a53f3f78c8be5dd3b9eead45b6c1a0520ef9d58dc7e4bb162cf3f89d94"} 
 info: Nov-06-2021 17:46:51: 	Response Body: {"err":null,"data":[{"Follower":"210b551be32131d55168984874d1bf3a8b34f5e3b3ad6c00bfb81e7893c6d483"},{"Follower":"33f13a41909c1500a200dcec393bd934b5f67cab1747a66223b2c40bfb6bf6ab"}],"msg":"Successfully got AllFollows & readAllFollows Request Successful & Successfully fetched all Follows"} 
 info: Nov-06-2021 17:46:52: 	Response: 200 817.662 ms  
+info: Nov-26-2021 17:21:00: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:21:00 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:21:00: 	Request Body: {"GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288"} 
+info: Nov-26-2021 17:21:00: 	Response Body: {"err":{},"data":null,"msg":"Error Calling the DataBase Layer APIsReferenceError: readGeolocation is not defined"} 
+info: Nov-26-2021 17:21:00: 	Response: 400 3.490 ms  
+info: Nov-26-2021 17:25:47: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:25:47 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:25:47: 	Request Body: {"GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288"} 
+info: Nov-26-2021 17:25:47: 	Response Body: {"err":{},"data":null,"msg":"Error Calling the DataBase Layer APIsReferenceError: readGeolocation is not defined"} 
+info: Nov-26-2021 17:25:47: 	Response: 400 0.415 ms  
+info: Nov-26-2021 17:26:57: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:26:57 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:26:57: 	Request Body: {"GeolocationUUID":"4564510a416cc7f2a0fd3ca9b81cc7658825802b3d490de276ddbd1bab4f3288"} 
+info: Nov-26-2021 17:26:57: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:26:57: 	Response: 200 1295.390 ms  
+info: Nov-26-2021 17:27:38: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:27:38 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:27:38: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:27:38: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:27:38: 	Response: 200 917.270 ms  
+info: Nov-26-2021 17:28:06: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:28:06 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:28:06: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:28:06: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:28:06: 	Response: 200 948.183 ms  
+info: Nov-26-2021 17:28:33: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:28:33 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:28:33: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:28:33: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:28:33: 	Response: 200 959.669 ms  
+info: Nov-26-2021 17:28:54: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:28:54 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:28:54: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:28:54: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:28:54: 	Response: 200 956.365 ms  
+info: Nov-26-2021 17:28:58: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:28:58 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:28:58: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:28:58: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:28:58: 	Response: 200 868.008 ms  
+info: Nov-26-2021 17:29:14: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:29:14 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:29:14: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:29:14: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:29:14: 	Response: 200 1047.586 ms  
+info: Nov-26-2021 17:29:17: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:29:17 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:29:17: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:29:17: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:29:17: 	Response: 200 839.193 ms  
+info: Nov-26-2021 17:29:58: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:29:58 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:29:58: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:29:58: 	Response Body: {"err":null,"data":{},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:29:58: 	Response: 200 896.747 ms  
+info: Nov-26-2021 17:30:28: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:30:28 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:30:28: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:30:28: 	Response Body: {"err":null,"data":{"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b","Lat":"1.2000","Long":"1.0000"},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:30:28: 	Response: 200 6054.514 ms  
+info: Nov-26-2021 17:33:19: 	 Request: POST /getGeolocation at Fri Nov 26 2021 17:33:19 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:33:19: 	Request Body: {"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b"} 
+info: Nov-26-2021 17:33:19: 	Response Body: {"err":null,"data":{"GeolocationUUID":"94e9b13f7a6c89070a3fef8c3441df2975a50a1f62680e7ec0e19f7b9de2b74b","Lat":"1.2000","Long":"1.0000"},"msg":"Successfully got GeoLocation & readGeolocation Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:33:19: 	Response: 200 953.961 ms  
+info: Nov-26-2021 17:34:00: 	 Request: POST /createGeolocation at Fri Nov 26 2021 17:34:00 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:34:00: 	Request Body: {"Lat":"2.00","Long":"3.00"} 
+info: Nov-26-2021 17:34:00: 	Response Body: {"err":null,"data":{"GeolocationUUID":"4c6ea2643d7a95fa7ca3d4cf69b7075dbe9014b875f52d264694acc70b140c8e"},"msg":"Successfully createdGeoLocation & createGeolocation Request Successful & Successfully created Geolocation"} 
+info: Nov-26-2021 17:34:00: 	Response: 200 18231.434 ms  
+info: Nov-26-2021 17:37:08: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:37:08 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:37:08: 	Request Body: {"Lat":"2.00","Long":"3.00"} 
+info: Nov-26-2021 17:37:08: 	Response: - - ms  
+info: Nov-26-2021 17:41:31: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:41:31 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:41:31: 	Request Body: {"Lat":"2.00","Long":"3.00"} 
+info: Nov-26-2021 17:41:31: 	Response Body: {"err":null,"data":{"GeolocationUUID":"4c6ea2643d7a95fa7ca3d4cf69b7075dbe9014b875f52d264694acc70b140c8e","Lat":"2.0000","Long":"3.0000"},"msg":"Successfully got geolocation & readGeolocationByLatLong Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:41:31: 	Response: 200 11329.109 ms  
+info: Nov-26-2021 17:42:00: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:42:00 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:42:00: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:42:00: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:42:00: 	Response: 400 12451.065 ms  
+info: Nov-26-2021 17:43:36: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:43:36 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:43:36: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:43:36: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:43:36: 	Response: 400 1246.252 ms  
+info: Nov-26-2021 17:45:36: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:45:36 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:45:36: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:45:36: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:45:36: 	Response: 400 8343.176 ms  
+info: Nov-26-2021 17:47:09: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:47:09 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:47:09: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:47:09: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:47:09: 	Response: 400 1498.443 ms  
+info: Nov-26-2021 17:47:24: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:47:24 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:47:24: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:47:24: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:47:24: 	Response: 400 930.603 ms  
+info: Nov-26-2021 17:47:59: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:47:59 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:47:59: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:47:59: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:47:59: 	Response: 400 6108.958 ms  
+info: Nov-26-2021 17:48:25: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:48:25 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:48:25: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:48:25: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:48:25: 	Response: 400 1117.456 ms  
+info: Nov-26-2021 17:49:21: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:49:21 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:49:21: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:49:21: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:49:21: 	Response: 400 1233.316 ms  
+info: Nov-26-2021 17:56:04: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:56:04 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:56:04: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:56:04: 	Response Body: {"err":{},"data":null,"msg":"Code Failed at calling getorCreateGeolocation"} 
+info: Nov-26-2021 17:56:04: 	Response: 400 6332.727 ms  
+info: Nov-26-2021 17:57:26: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:57:26 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:57:26: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:57:26: 	Response Body: {"err":null,"data":{"GeolocationUUID":"4e3a2b19bee4f64bc46dd869234ec67bbd942a2c8f2b92087af273556c1e0002"},"msg":"Successfully createdGeoLocation & createGeolocation Request Successful & Successfully created Geolocation"} 
+info: Nov-26-2021 17:57:26: 	Response: 200 2419.505 ms  
+info: Nov-26-2021 17:57:42: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 17:57:42 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 17:57:42: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 17:57:42: 	Response Body: {"err":null,"data":{"GeolocationUUID":"4e3a2b19bee4f64bc46dd869234ec67bbd942a2c8f2b92087af273556c1e0002","Lat":"2.0000","Long":"3.1000"},"msg":"Successfully got geolocation & readGeolocationByLatLong Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 17:57:42: 	Response: 200 955.552 ms  
+info: Nov-26-2021 19:41:39: 	 Request: POST /getorCreateGeolocation at Fri Nov 26 2021 19:41:39 GMT+0530, IP: ::ffff:127.0.0.1, User Agent: python-requests/2.25.1 
+info: Nov-26-2021 19:41:39: 	Request Body: {"Lat":"2.00","Long":"3.10"} 
+info: Nov-26-2021 19:41:39: 	Response Body: {"err":null,"data":{"GeolocationUUID":"4e3a2b19bee4f64bc46dd869234ec67bbd942a2c8f2b92087af273556c1e0002","Lat":"2.0000","Long":"3.1000"},"msg":"Successfully got geolocation & readGeolocationByLatLong Request Successful & Successfully fetched data"} 
+info: Nov-26-2021 19:41:39: 	Response: 200 6125.386 ms  

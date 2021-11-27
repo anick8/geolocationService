@@ -1,28 +1,23 @@
 
 var utils = require('../common/utils');
-const { unfollow } = require('../lib/requestLibrary');
-var followService = require('./followService');
+var GeolocationService = require('./GeolocationService');
 module.exports = (app, console) => {
     
-    app.post('/isFollow',async (req, res) => {
-        result  = await followService.isFollow(req);
+    app.post('/getGeolocation',async (req, res) => {
+        console.log('hello')
+        result  = await GeolocationService.getGeolocation(req);
         utils.handleresultdict(res,result)
        }
     )
 
-    app.post('/getAllFollows',async (req, res) => {
-        result  = await followService.getAllFollows(req);
+    app.post('/createGeolocation',async (req, res) => {
+        result  = await GeolocationService.createGeoLocation(req);
         utils.handleresultdict(res,result)
        }
     )
 
-    app.post('/follow',async (req, res) => {
-        result  = await followService.follow(req);
-        utils.handleresultdict(res,result)
-       }
-    )
-    app.post('/unfollow',async (req, res) => {
-        result  = await followService.unfollow(req);
+    app.post('/getorCreateGeolocation',async (req, res) => {
+        result  = await GeolocationService.getorCreateGeolocation(req);
         utils.handleresultdict(res,result)
        }
     )
